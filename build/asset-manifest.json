@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8ae63d2.css",
+    "main.js": "/static/js/main.6ae93d3a.js",
+    "static/js/453.d63e0ab5.chunk.js": "/static/js/453.d63e0ab5.chunk.js",
+    "static/media/fondo.jpg": "/static/media/fondo.1b0de3eddcc9378bb06a.jpg",
+    "static/media/logo-vacations-chat-removebg-preview.png": "/static/media/logo-vacations-chat-removebg-preview.919abc9ecd0240863d28.png",
+    "static/media/index.cjs": "/static/media/index.671993152dc0f6e0b17a.cjs",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.c8ae63d2.css.map": "/static/css/main.c8ae63d2.css.map",
+    "main.6ae93d3a.js.map": "/static/js/main.6ae93d3a.js.map",
+    "453.d63e0ab5.chunk.js.map": "/static/js/453.d63e0ab5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8ae63d2.css",
+    "static/js/main.6ae93d3a.js"
+  ]
+}

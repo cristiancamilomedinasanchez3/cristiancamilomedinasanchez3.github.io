@@ -1,0 +1,1036 @@
+.App {
+  /* text-align: center; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets//fondo.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  padding-top: 200px;
+}
+
+/* CONFIGURACIONES GENERALES  */
+
+h2{
+  color: white;
+  font-weight: bold;
+  font-family: 'Lobster'
+}
+
+h1{
+  color: #98dafb;
+}
+
+
+/* INICIO */
+
+.inicio-form-container{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 25px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* margin-left: calc(50% - 150px); */
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.input-form{
+margin-top: 25px;
+}
+
+.input-container{
+
+  margin-top: 0px;
+}
+
+
+.button{
+  background-color: #61dafb;
+  padding: 2.5px;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: calc(50% - 75px);
+}
+
+.button:hover{
+background-color: #98dafb;
+color: black;
+
+}
+
+
+.container-chat{
+  width: 1200px;
+  margin-left: 00px;
+  margin-top: -200px;
+}
+
+
+
+
+/* LOGO */
+
+
+.img-logo{
+  width: 75px;
+  height: 75px;
+}
+
+
+.logo-words{
+  font-size: 25px;
+  font-weight: 60%;
+  font-family: 'Pacifico';
+}
+
+
+
+.container-presentacionUser{
+  background-color: rgba(0, 128, 255, 0.5);
+  width: 100vw;
+  height: 300px;
+  margin-top: 0;
+  /* text-align: center; */
+}
+
+.presentacion{
+  margin-left: 100;
+}
+
+.img-logo-chat{
+  width: 150px;
+  height: 150px;
+}
+
+.logo-words-chat{
+  font-size: 45px;
+  font-weight: 60%;
+  font-family: 'Pacifico';
+}
+
+
+/* letter of settings */
+
+.container-leter-settings{
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 400px;
+  height: 150px;
+  margin-left: 1000px;
+margin-top: 100px;
+}
+
+.button-changeperfil{
+  background-color: #61dafb;
+  padding: 2.5px;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 0;
+ 
+}
+.button-changeperfil:hover{
+  background-color: #98dafb;
+color: black;
+
+}
+
+
+/* chat seccion */
+
+.container-chatseccion{
+ position: absolute;
+ left: 600px;
+ top: 400px;
+}
+
+.container-message{
+ max-width: 400px;
+ width: 100%;
+ height: auto;
+}
+.messages{
+ width: 400px;
+ height: 300px;
+ background-color: rgba(0, 0, 0, 0.5); 
+ overflow-y: auto;
+}
+
+.input-message{
+  width: 350px;
+  height: 25px;
+}
+
+.button-send-message{
+width: 50px;
+height: 35px;
+margin-top: -15px;
+background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+background-size: 100% 100%;
+}
+
+
+
+
+/* SETTINGS */
+
+.container-settings{
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 20px;
+ width: 300px;
+ height: 300px; 
+ margin-left: calc(50% - 150px);
+}
+
+
+.button-setting{
+  background-color: #61dafb;
+  padding: 2.5px;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 0;
+ 
+
+}
+
+.button-setting:hover{
+  background-color: #98dafb;
+  color: black;
+  
+}
+
+.img-settings{
+ width: 150px;
+ height: 30px;
+  
+}
+
+
+#button-img{
+
+ background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+
+.container-buttons{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+
+.button-sendimagen{
+  background-color: #61dafb;
+  padding: 2.5px;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 0;
+  
+}
+
+
+.button-sendimagen:hover{
+  background-color: #98dafb;
+  color: black;
+ 
+}
+
+
+
+
+/* SEND IMAGEN SECCION */
+
+.container-imagenchallangeseccion {
+  width: 150px; /* Ajusta el ancho según sea necesario */
+  height: 150px; /* Ajusta la altura según sea necesario */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+  text-align: center;
+}
+
+.container-imagenchallangeseccion img {
+  width: 100%; /* La imagen se ajusta al ancho del contenedor */
+  height: auto; /* La altura de la imagen se ajusta automáticamente */
+  object-fit: cover; /* La imagen se ajusta para cubrir el contenedor */
+  border-radius: 50%;
+  border: solid 1px black;
+  height: 100%;
+}
+
+.container-buttons-file {
+  display: flex; /* Usa flexbox para alinear elementos */
+  align-items: center; /* Alinea los elementos verticalmente */
+  flex-direction: column;
+  
+}
+
+.button-sendimagen {
+  margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+  padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+  font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Ajusta el radio del borde según sea necesario */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.button-sendimagen:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+
+
+/* IMAGEN DE PERFIL */
+
+.img-perfil{
+  width: 200px; /* La imagen se ajusta al ancho del contenedor */
+  height: auto; /* La altura de la imagen se ajusta automáticamente */
+  object-fit: cover; /* La imagen se ajusta para cubrir el contenedor */
+  border-radius: 50%;
+  border: solid 1px black;
+  height: 200px;
+}
+
+.container-imgperfil{
+  position: absolute;
+  left: 1350px;
+  top: 50px;
+}
+
+
+/* MESSAGES */
+
+.background-messages{
+  background-color: rgba(0, 128, 255, 0.5);
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+
+.img-message{
+  width: 50px;
+  height: 50px;
+border: solid black 1px;
+  border-radius: 50%;
+ 
+}
+
+
+.p-message{
+  /* width: 400px; */
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-message{
+  width: 400px;
+ 
+}
+
+
+
+@media(min-width: 320px){
+
+  .App {
+    /* text-align: center; */
+    width:100vw;
+    height: 115vh;
+    background-image: url('./assets/fondo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+
+.inicio-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  padding: 25px;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  margin-left: 0%;
+  margin-top: -150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  
+}
+
+
+
+/* CHAT */
+
+.container-presentacionUser {
+  background-color: rgba(0, 128, 255, 0.5);
+  width: 320px;
+  height: 300px;
+  margin-top: 0;
+  text-align: right;
+  /* margin-left: -700px; */
+  position: absolute;
+  left: 0px;
+}
+
+
+
+
+.img-logo-chat {
+  width: 75px;
+  height: 75px;
+  margin-left: -125px;
+}
+
+
+.logo-words-chat {
+  font-size: 25px;
+  font-weight: 60%;
+  font-family: 'Pacifico';
+}
+
+.container-img-barnav{
+  position: absolute;
+  left: 5px;
+  top: 120px;
+  align-items: left;
+}
+
+
+
+
+
+.img-perfil {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 1px black;
+  /* height: 200px; */
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+}
+
+
+/* chatsecccion */
+
+
+.messages {
+  width: 320px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+
+.container-chatseccion{
+  position: absolute;
+  left: 0px;
+  top: 325px;
+}
+
+.input-message {
+  width: 280px;
+  height: 25px;
+}
+
+.button-send-message {
+  width: 35px;
+  height: 30px;
+  margin-top: 0px;
+  background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+  background-size: 100% 100%;
+}
+
+.container-input-message {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.container-leter-settings {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 320px;
+  height: auto;
+  /* margin-left: 1000px; */
+  /* margin-top: 100px; */
+  position: absolute;
+  left: -1000px;
+  top: 550px;
+}
+
+.container-settings {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 285px;
+  height: 300px;
+  margin-left:-10px;
+}
+
+
+
+
+}
+@media(min-width: 460px){
+
+  .App {
+    /* text-align: center; */
+    /* width: 460px; */
+    height: 115vh;
+    background-image: url('./assets/fondo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+.inicio-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  padding: 25px;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  margin-left: 0px;
+  margin-top: -150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+
+.container-presentacionUser {
+  background-color: rgba(0, 128, 255, 0.5);
+  width: 460px;
+  height: 300px;
+  margin-top: 0;
+  text-align: right;
+  /* margin-left: -700px; */
+  position: absolute;
+  left: 0px;
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+.img-logo-chat {
+  width: 125px;
+  height: 125px;
+  margin-left: -125px;
+}
+
+.logo-words-chat {
+  font-size: 35px;
+  font-weight: 60%;
+  font-family: 'Pacifico';
+}
+
+.container-img-barnav {
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  align-items: left;
+}
+
+
+/* messages */
+
+.messages {
+  width: 460px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.input-message {
+  width: 370px;
+  height: 25px;
+}
+
+.button-send-message {
+  width: 80px;
+  height: 30px;
+  margin-top: 0px;
+  background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+  background-size: 100% 100%;
+}
+
+.container-leter-settings {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 460px;
+  height: auto;
+  /* margin-left: 1000px; */
+  /* margin-top: 100px; */
+  position: absolute;
+  left: -1000px;
+  top: 550px;
+}
+
+
+.container-settings {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 480px;
+  height: 300px;
+  margin-left: -10px;
+}
+
+
+}
+@media(min-width: 580px){
+
+
+  .App {
+    text-align: center;
+    /* width: 580px; */
+    height: 115vh;
+    background-image: url('./assets/fondo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+.container-presentacionUser {
+  background-color: rgba(0, 128, 255, 0.5);
+  width: 580px;
+  height: 300px;
+  margin-top: 0;
+  text-align: right;
+  /* margin-left: -700px; */
+  position: absolute;
+  left: 0px;
+}
+
+.messages {
+  width: 580px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.input-message {
+  width: 500px;
+  height: 25px;
+}
+
+.button-send-message {
+  width: 80px;
+  height: 30px;
+  margin-top: 0px;
+  background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+  background-size: 100% 100%;
+
+}
+
+.container-leter-settings {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 580px;
+  height: auto;
+  /* margin-left: 1000px; */
+  /* margin-top: 100px; */
+  position: absolute;
+  left: -1000px;
+  top: 560px;
+}
+
+
+.container-settings {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 580px;
+  height: 300px;
+  margin-left: -10px;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 50px;
+  width: 400px;
+  margin-left: 180px;
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 450px;
+  top: 200px;
+}
+
+.img-perfil {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 1px black;
+  /* height: 200px; */
+}
+
+
+.button-setting {
+  background-color: #61dafb;
+  padding: 2.5px;
+  color: white;
+  border-radius: 20px;
+  width: 250px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 0;
+}
+
+
+
+}
+
+@media(min-width: 720px){
+
+  .App {
+    text-align: center;
+    /* width: 720px; */
+    height: 115vh;
+    background-image: url('./assets/fondo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+.inicio-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  padding: 25px;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  margin-left: calc(50% - 205px);
+  margin-top: -150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+
+.container-presentacionUser {
+  background-color: rgba(0, 128, 255, 0.5);
+  width: 680px;
+  height: 300px;
+  margin-top: 0;
+  text-align: right;
+  /* margin-left: -700px; */
+  position: absolute;
+  left: 0px;
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 570px;
+  top: 200px;
+}
+
+.messages {
+  width: 685px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.input-message {
+  width: 585px;
+  height: 25px;
+}
+
+.button-send-message {
+  width: 100px;
+  height: 30px;
+  margin-top: 0px;
+  background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+  background-size: 100% 100%;
+}
+
+.container-settings {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 600px;
+  height: 300px;
+  margin-left: -10px;
+}
+
+.container-leter-settings {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 720px;
+  height: auto;
+  /* margin-left: 1000px; */
+  /* margin-top: 100px; */
+  position: absolute;
+  left: -1000px;
+  top: 560px;
+}
+
+}
+@media(min-width: 900px){
+
+  .container-presentacionUser {
+    background-color: rgba(0, 128, 255, 0.5);
+    width: 710px;
+    height: 300px;
+    margin-top: 0;
+    text-align: right;
+    /* margin-left: -700px; */
+    position: absolute;
+    left: 0px;
+}
+
+.messages {
+  width: 710px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+.input-message {
+  width:600px;
+  height: 25px;
+}
+
+.container-settings {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 600px;
+  height: 300px;
+  margin-left: 35px;
+}
+
+
+
+}
+
+@media(min-width: 1280px){
+
+  .App {
+    text-align: center;
+    width: 100vw;
+    height: 115vh;
+    background-image: url('./assets//fondo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+.inicio-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  padding: 25px;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  margin-left: calc(50% - 205px);
+  margin-top: -150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.container-presentacionUser {
+  background-color: rgba(0, 128, 255, 0.5);
+  width: 1280px;
+  height: 300px;
+  margin-top: 0;
+  text-align: right;
+  /* margin-left: -700px; */
+  position: absolute;
+  left: 0px;
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 900px;
+  top: 200px;
+}
+
+.messages {
+  width: 1280px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.input-message {
+  width: 1180px;
+  height: 25px;
+}
+
+.container-leter-settings {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 1280px;
+  height: auto;
+  /* margin-left: 1000px; */
+  /* margin-top: 100px; */
+  position: absolute;
+  left: -1000px;
+  top: 560px;
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 1200px;
+  top: 200px;
+}
+
+
+.container-settings {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 800px;
+  height: 300px;
+  margin-left: calc(50% - 400px);
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 50px;
+  width: 400px;
+  margin-left: 300px;
+}
+
+
+
+}
+
+@media(min-width: 1400px){
+  .inicio-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+    padding: 25px;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin-left: 30%;
+    margin-top: -150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+
+
+.container-presentacionUser {
+    background-color: rgba(0, 128, 255, 0.5);
+    width: 100vw;
+    height: 300px;
+    margin-top: 0;
+    text-align: none;
+    padding-right: -300px;
+    /* margin-left: -700px; */
+    position: absolute;
+    left: 0px;
+}
+.presentacion{
+margin-left: -100px;
+}
+
+.messages {
+  width: 100vw;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.input-message {
+  width: 90vw;
+  height: 25px;
+}
+
+.container-leter-settings {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100vw;
+  height: auto;
+  /* margin-left: 1000px; */
+  /* margin-top: 100px; */
+  position: absolute;
+  left: right;
+  top: 560px;
+}
+
+.container-imgperfil {
+  position: absolute;
+  left: 750px;
+  top: 50px;
+}
+.container-img-barnav {
+  position: absolute;
+  left: 45px;
+  top: 20px;
+  align-items: left;
+}
+
+.img-perfil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 1px black;
+  /* height: 200px; */
+}
+
+
+.button-send-message {
+  width: 5vw;
+  height: 30px;
+  margin-top: 0px;
+  background-image: url('./assets/sinfondo/logo-vacations-chat-removebg-preview.png');
+  background-size: 100% 100%;
+}
+
+}
